@@ -92,7 +92,6 @@ const SingleProduct = () => {
 
   return (
     <div className="container mx-auto pt-20 flex flex-col md:flex-row items-start gap-6">
-      {/* Product Image Section */}
       <div className="flex flex-col gap-4">
         <div className="w-72 h-72 border p-1">
           <img
@@ -138,7 +137,7 @@ const SingleProduct = () => {
             <option value="24">24 oylik</option>
           </select>
           <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded flex items-center gap-2">
-            Savatga qo'shish
+            Savatga qoshish
           </button>
           <button
             onClick={handleLike}
@@ -153,7 +152,6 @@ const SingleProduct = () => {
         </div>
       </div>
 
-      {/* Toast Container */}
       <div>
         <ToastContainer />
       </div>
